@@ -5,14 +5,14 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/WorkFit/caldav-go/caldav"
-	"github.com/WorkFit/caldav-go/webdav"
-	"github.com/WorkFit/caldav-go/webdav/entities"
-	common "github.com/WorkFit/commongo/log"
-	"github.com/WorkFit/commongo/web"
-	"github.com/WorkFit/go/calendar"
-	"github.com/WorkFit/go/errors"
-	"github.com/WorkFit/go/log"
+	"github.com/WF/caldav-go/caldav"
+	"github.com/WF/caldav-go/webdav"
+	"github.com/WF/caldav-go/webdav/entities"
+	common "github.com/WF/commongo/log"
+	"github.com/WF/commongo/web"
+	"github.com/WF/go/calendar"
+	"github.com/Cepreu/Archive/errors"
+	"github.com/Cepreu/Archive/log"
 )
 
 const (

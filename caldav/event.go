@@ -5,15 +5,15 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/WorkFit/caldav-go/icalendar/components"
-	"github.com/WorkFit/caldav-go/icalendar/properties"
-	"github.com/WorkFit/caldav-go/icalendar/values"
-	"github.com/WorkFit/go/calendar"
-	"github.com/WorkFit/go/convert"
-	"github.com/WorkFit/go/enums/importance"
-	"github.com/WorkFit/go/enums/rsvp"
-	"github.com/WorkFit/go/enums/sensitivity"
-	"github.com/WorkFit/go/log"
+	"github.com/WF/caldav-go/icalendar/components"
+	"github.com/WF/caldav-go/icalendar/properties"
+	"github.com/WF/caldav-go/icalendar/values"
+	"github.com/WF/go/calendar"
+	"github.com/WF/go/convert"
+	"github.com/WF/go/enums/importance"
+	"github.com/WF/go/enums/rsvp"
+	"github.com/WF/go/enums/sensitivity"
+	"github.com/Cepreu/Archive/log"
 )
 
 func newCalendarItem(event *components.Event, parentCalendar *calendarListEntry) *calendarItem {

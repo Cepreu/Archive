@@ -3,9 +3,9 @@ package sqs
 import (
 	"strconv"
 
-	"github.com/WorkFit/commongo/polling"
-	"github.com/WorkFit/go/errors"
-	"github.com/WorkFit/go/log"
+	"github.com/WF/commongo/polling"
+	"github.com/Cepreu/Archive/errors"
+	"github.com/Cepreu/Archive/log"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/session"

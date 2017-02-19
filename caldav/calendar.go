@@ -4,11 +4,11 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/WorkFit/caldav-go/caldav/entities"
-	"github.com/WorkFit/caldav-go/icalendar/components"
-	"github.com/WorkFit/caldav-go/webdav"
-	props "github.com/WorkFit/caldav-go/webdav/entities"
-	"github.com/WorkFit/go/calendar"
+	"github.com/WF/caldav-go/caldav/entities"
+	"github.com/WF/caldav-go/icalendar/components"
+	"github.com/WF/caldav-go/webdav"
+	props "github.com/WF/caldav-go/webdav/entities"
+	"github.com/WF/go/calendar"
 )
 
 const (

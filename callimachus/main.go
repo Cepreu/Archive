@@ -9,15 +9,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WorkFit/commongo/polling"
-	"github.com/WorkFit/go/aws/sqs"
-	"github.com/WorkFit/go/caldav"
-	"github.com/WorkFit/go/calendar"
-	"github.com/WorkFit/go/ews"
-	"github.com/WorkFit/go/google"
-	"github.com/WorkFit/go/log"
-	"github.com/WorkFit/go/parse"
-	"github.com/WorkFit/go/secrets"
+	"github.com/WF/commongo/polling"
+	"github.com/Cepreu/Archive/aws/sqs"
+	"github.com/Cepreu/Archive/caldav"
+	"github.com/WF/go/calendar"
+	"github.com/WF/go/ews"
+	"github.com/WF/go/google"
+	"github.com/Cepreu/Archive/log"
+	"github.com/WF/go/parse"
+	"github.com/WF/go/secrets"
 )
 
 var (

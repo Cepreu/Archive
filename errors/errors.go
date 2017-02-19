@@ -39,8 +39,8 @@ package errors
 import (
 	"errors"
 
-	common "github.com/WorkFit/commongo/errors"
-	"github.com/WorkFit/go/log"
+	common "github.com/WF/commongo/errors"
+	"github.com/Cepreu/Archive/log"
 )
 
 const wf10001 = `WF10001: crypto error`

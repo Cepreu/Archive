@@ -11,9 +11,9 @@ import (
 	stdlog "log"
 	"time"
 
-	"github.com/WorkFit/commongo"
-	"github.com/WorkFit/commongo/log"
-	"github.com/WorkFit/commongo/testutil"
+	"github.com/WF/commongo"
+	"github.com/WF/commongo/log"
+	"github.com/WF/commongo/testutil"
 	"github.com/uber-go/zap"
 )
 
